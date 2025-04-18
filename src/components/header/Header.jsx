@@ -15,10 +15,10 @@ const Header = () => {
         marginTop: "15px",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: "10px" ,}}>
         <FaBuilding />
         <h1>
-          Purple <span style={{ color: "purple" }}>Buzz</span>
+          Purple <span style={{ color:'#5432c2' }}>Buzz</span>
         </h1>
       </div>
       <div
@@ -52,7 +52,7 @@ const Header = () => {
             fontSize: "22px",
           }}
         >
-          <CiBellOn />
+          <CiBellOn style={{color:'#5432c2'}} />
         </button>
         <button
           style={{
@@ -61,7 +61,7 @@ const Header = () => {
             fontSize: "22px",
           }}
         >
-          <CiSettings />
+          <CiSettings style={{color:'#5432c2'}}/>
         </button>
         <button
           style={{
@@ -70,7 +70,7 @@ const Header = () => {
             fontSize: "22px",
           }}
         >
-          <CiUser />
+          <CiUser style={{color:'#5432c2'}} />
         </button>
       </div>
     </div>
