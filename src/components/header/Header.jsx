@@ -13,15 +13,18 @@ const Header = () => {
         alignItems: "center",
         justifyContent: "space-between",
         marginTop: "15px",
+        marginLeft: "15px",
+        marginRight: "15px",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center", gap: "10px" ,}}>
+      <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
         <FaBuilding />
         <h1>
-          Purple <span style={{ color:'#5432c2' }}>Buzz</span>
+          Purple <span style={{ color: "#5432c2" }}>Buzz</span>
         </h1>
       </div>
       <div
+      
         style={{
           display: "flex",
           gap: "15px",
@@ -30,19 +33,21 @@ const Header = () => {
           width: "40%",
         }}
       >
-        <h2>Home</h2>
-        <h2>About</h2>
-        <h2>Work</h2>
-        <h2>Pricing</h2>
-        <h2>Contact</h2>
+        <button>Home</button>
+        <button>About</button>
+        <button>Work</button>
+        <button>Pricing</button>
+        <button>Contact</button>
       </div>
       <div
+      className={styles.btns}
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
           gap: "5px",
           marginTop: "6px",
+        
         }}
       >
         <button
@@ -52,7 +57,7 @@ const Header = () => {
             fontSize: "22px",
           }}
         >
-          <CiBellOn style={{color:'#5432c2'}} />
+          <CiBellOn style={{ color: "#5432c2" }} />
         </button>
         <button
           style={{
@@ -61,7 +66,7 @@ const Header = () => {
             fontSize: "22px",
           }}
         >
-          <CiSettings style={{color:'#5432c2'}}/>
+          <CiSettings style={{ color: "#5432c2" }} />
         </button>
         <button
           style={{
@@ -70,7 +75,7 @@ const Header = () => {
             fontSize: "22px",
           }}
         >
-          <CiUser style={{color:'#5432c2'}} />
+          <CiUser style={{ color: "#5432c2" }} />
         </button>
       </div>
     </div>

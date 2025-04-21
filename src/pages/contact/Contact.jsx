@@ -3,6 +3,8 @@ import styles from "./Contact.module.css";
 import { FaRegNewspaper } from "react-icons/fa";
 import { MdComputer } from "react-icons/md";
 import { FaMoneyBill } from "react-icons/fa";
+import ContactForm from "../../components/form/Form";
+// import ContactForm from "../../components/form/Form";
 
 const Contact = () => {
   return (
@@ -45,7 +47,7 @@ const Contact = () => {
               voluptate.
             </p>
             
-            <div className={styles.contactCards}>
+            <div style={{display:'flex',justifyContent:'space-between',width:'100%',marginTop:'25px'}}><div className={styles.contactCards}>
               <div style={{display:'flex', gap:'10px'}}>
                 <div className={styles.icondiv}>
                   <FaRegNewspaper style={{color:'#5432c2',fontSize:'35px'}} />
@@ -81,6 +83,8 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
+            </div>
+        <ContactForm/>
             </div>
             
           </div>
