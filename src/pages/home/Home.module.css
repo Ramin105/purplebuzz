@@ -1,0 +1,130 @@
+.section1 {
+    width: 100%;
+    background-image: url('https://templatemo.com/templates/templatemo_561_purple_buzz/assets/img/banner-bg-01.jpg');
+    background-size: cover;
+    height: 85vh;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueborder {
+    height: 5px;
+    width: 15%;
+    background-color: #6266EA;
+}
+
+.cover {
+    width: 60%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    h1 {
+        font-weight: 100;
+        font-size: 65px;
+        color: #6266EA;
+    }
+
+    p {
+        opacity: 0.6;
+    }
+
+    button {
+        padding: 15px;
+        border: 1px solid #6266EA;
+        border-radius: 35px;
+        font-size: 22px;
+        color: #6266EA;
+        width: 20%;
+    }
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+
+    h1 {
+        font-size: 35px;
+    }
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .right {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        p{
+            opacity: 0.6;
+        }
+    }
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;background-color: #6266EA;
+    height: 18vh;
+    margin-top: 35px;
+}
+.buttoncontainer{
+    display: flex;
+    gap: 50px;
+}
+.buttoncontainer *{
+    border: none;
+    background-color: transparent;
+    color: white;
+font-size: 16px;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+
+}
+.cards{
+    width: 80%;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.card{
+    background-image: url('https://templatemo.com/templates/templatemo_561_purple_buzz/assets/img/services-01.jpg');
+    background-size: cover;
+   overflow: hidden;
+    width: 24%;
+    height: 300px;border-radius: 13px;
+    position: relative;
+filter: brightness(0.8);
+}
+.cardcover{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    button{
+        border-radius: 20px;
+        padding: 10px;
+        width: 35%;
+        background-color: transparent;
+        color: black;
+        border: 1px solid black;
+    }
+}

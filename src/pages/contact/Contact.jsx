@@ -3,7 +3,6 @@ import styles from "./Contact.module.css";
 import { FaRegNewspaper } from "react-icons/fa";
 import { MdComputer } from "react-icons/md";
 import { FaMoneyBill } from "react-icons/fa";
-import ContactForm from "../../components/form/Form";
 
 const Contact = () => {
   return (
@@ -84,7 +83,6 @@ const Contact = () => {
               </div>
             </div>
             
-            <ContactForm/>
           </div>
         </div>
       </div>
