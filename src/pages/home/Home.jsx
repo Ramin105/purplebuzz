@@ -5,7 +5,7 @@ import { FaBoxOpen } from "react-icons/fa";
 import { FaBuilding } from "react-icons/fa";
 const Home = () => {
   return (
-    <div>
+    <div className={styles.bir}>
       <div className={styles.container}>
         <section className={styles.section1}>
           <div className={styles.cover}>
@@ -127,7 +127,7 @@ const Home = () => {
           >
             {" "}
             <div>
-              <h1>Recent Works</h1>
+               <h1>Recent Works</h1>
             </div>
             <div className={styles.cards2}>
               <div className={styles.card2}>

@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./Header.module.css";
-import { FaBuilding } from "react-icons/fa";
+import { FaBuilding, FaHamburger } from "react-icons/fa";
 import { CiBellOn } from "react-icons/ci";
 import { CiSettings } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
+import { GiHamburger, GiHamburgerMenu } from "react-icons/gi";
 const Header = () => {
   return (
     <div
@@ -24,14 +25,8 @@ const Header = () => {
         </h1>
       </div>
       <div
-      
-        style={{
-          display: "flex",
-          gap: "15px",
-          alignItems: "center",
-          justifyContent: "space-between",
-          width: "40%",
-        }}
+      className={styles.nav}
+       
       >
         <button>Home</button>
         <button>About</button>
@@ -57,7 +52,7 @@ const Header = () => {
             fontSize: "22px",
           }}
         >
-          <CiBellOn style={{ color: "#5432c2" }} />
+          <CiBellOn style={{ color: "#5432c2",opacity:'1' }} />
         </button>
         <button
           style={{
@@ -66,7 +61,7 @@ const Header = () => {
             fontSize: "22px",
           }}
         >
-          <CiSettings style={{ color: "#5432c2" }} />
+          <CiSettings style={{ color: "#5432c2", opacity:'1' }} />
         </button>
         <button
           style={{
@@ -75,9 +70,10 @@ const Header = () => {
             fontSize: "22px",
           }}
         >
-          <CiUser style={{ color: "#5432c2" }} />
+          <CiUser style={{ color: "#5432c2" ,opacity:'1' }} />
         </button>
       </div>
+      <GiHamburgerMenu className={styles.hamburger}/>
     </div>
   );
 };

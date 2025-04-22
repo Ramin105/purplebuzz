@@ -1,15 +1,37 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container{
-    button{
-        opacity: .5;
-        border: none;
-        font-size: 18px;
-    }
-}
+
+
+
 .btns{
-    button{opacity: 1;}
+    display: block;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    button{border: none;
+        opacity: .6;
+        font-size: 18px;}
+}
+.hamburger{
+    display: none;
+}
+@media screen and (min-width:400px) and (max-width:578px) {
+    .nav {
+        display: none;
+    }
+
+    .btns *{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
 }
